@@ -1,0 +1,3 @@
+# frontend_admin/requirements.txt
+streamlit
+httpx

@@ -1,0 +1,12 @@
+# backend/requirements.txt
+fastapi
+uvicorn
+pydantic
+supabase
+python-dotenv
+google-genai
+httpx
+pytest
+python-multipart
+bcrypt
+redis>=5

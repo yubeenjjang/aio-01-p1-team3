@@ -1,0 +1,36 @@
+# .gitignore
+
+# 비밀값과 Streamlit 설정
+.env
+.env.*
+!.env.example
+**/.streamlit/secrets.toml
+
+# 가상환경·Python 생성 파일
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+
+# 테스트·커버리지 산출물
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+test-results/
+tests/artifacts/
+
+# 팀원별 로컬 실험·메모·임시 실행 공간
+team_workspace/backend_a/
+team_workspace/backend_b/
+team_workspace/frontend_a/
+team_workspace/frontend_b/
+
+# 로컬 업로드·로그
+uploads/
+*.log
+
+# 운영체제·편집기 개인 설정
+.DS_Store
+Thumbs.db
+.vscode/

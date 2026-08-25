@@ -1,0 +1,4 @@
+# frontend_user/requirements.txt
+streamlit
+httpx
+streamlit-browser-session-storage==0.0.12
